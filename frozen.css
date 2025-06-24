@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+head{
+  color:#252525;
+  font-family: sans-serif;
+}
+header{
+   background-color:#252525;
+   display: flex;
+   justify-content: space-between; 
+   color: white;
+   font-size: 30px;
+   padding: 16px;
+   position: fixed;
+   width: 100%;
+   /* z-index: 1000; */
+   .icon a{
+   color: white;
+   padding-left: 12px;
+}
+}
+header p{
+    color: white;
+}
+header a i{
+    color: white;
+}
+.afford{
+    background-image: url(https://res.cloudinary.com/frozen-solid-designs/image/upload/f_auto,q_auto:best/v1641075851/seigaiha_ykdj2f.png);
+    width: 100%;
+    height: 780px;
+    border-bottom: 16px solid black;
+
+}
+
+.universal h2{
+    font-size: 140px;
+}
+.afford i{
+        font-size: 140px;
+        color: aqua;
+}
+.flex{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+.icon a{
+   color: white;
+   padding-left: 12px;
+}
+.universal h3{
+    font-size: 80px;
+    padding-left: 60px;
+}
+.universal p{
+    font-size: 50px;
+    padding-left: 60px;
+    padding-top: 60px;
+    font-weight: bold;
+}
+
+
+.Website{
+    background-color:#41d1eb;
+    width: 100%;
+    height: 780px;
+    border-bottom: 16px solid black;
+
+}
+.Website i{
+        font-size: 140px;
+        color: white;
+        padding-right: 50px;
+}
+.flex{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+.Website h3{
+    font-size: 50px;
+    padding-left: 60px;
+}
+.Website p{
+    font-size: 30px;
+    padding-left: 60px;
+    padding-top: 60px;
+    font-weight: normal;
+}
+
+
+
+
+
+.custom{
+    background-image: url(https://res.cloudinary.com/frozen-solid-designs/image/upload/f_auto,q_auto:best/v1641075851/crossword_qr1ieh.png);
+    width: 100%;
+    height: 780px;
+    border-bottom: 16px solid black;
+
+}
+.custom i{
+        font-size: 140px;
+        color: black;
+        padding-right: 50px;
+}
+.flex{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+.custom h3{
+    font-size: 50px;
+    padding-left: 60px;
+}
+.custom p{
+    font-size: 30px;
+    padding-left: 60px;
+    padding-top: 60px;
+    font-weight: normal;
+}
+
+
+
+.app{
+    background-image: url(https://res.cloudinary.com/frozen-solid-designs/image/upload/f_auto,q_auto:best/v1641075850/prism_ly2ugg.png);
+    width: 100%;
+    height: 780px;
+    border-bottom: 16px solid black;
+
+}
+.app h2 {
+    color: white;
+}
+.app i{
+        font-size: 140px;
+        color: white;
+        padding-right: 50px;
+}
+.flex{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+.app h3{
+    color: white;
+    font-size: 50px;
+    padding-left: 60px;
+}
+.app p{
+    color: white;
+    font-size: 30px;
+    padding-left: 60px;
+    padding-top: 60px;
+    font-weight: normal;
+}
