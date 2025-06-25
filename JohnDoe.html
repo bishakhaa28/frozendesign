@@ -11,13 +11,15 @@
     <header>
         <h2>Hi, I'm John Doe.</h2>
         <p>A passionate Frontend Developer</p>
-        <button class="button">View My Work</button>
+       <a href="#projects"><button class="button">View My Work</button></a>
     </header>
-
     <nav>
     <ul>
         <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>  
         <li><a href="#projects">Projects</a></li>  
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#blog">Blog</a></li>  
         <li><a href="#contact">Contact</a></li>  
     </ul>
     </nav>
@@ -26,12 +28,27 @@
 <div class="container2">
    <div class="about" id="about"> 
      <h2>About Me</h2>
-     <img src="./images/aboutme.png" alt="">
+     <img src="./images/aboutme.jfif" alt="">
      <p>Hello! I am a beginner web developer with a love for clean and responsive websites. I'm currently learning HTML, CSS and Javascript, and I'm always eager to build new things.</p>
    </div>
 
+   <div class="skills">
+     <h2>My Skills</h2>
+     <div class="language">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>UI/UX</li>
+            <li>Git & Github</li>
+        </ul>
+     </div>
+   </div>
    <div class="projects" id="projects">
-     <h2>My Projects</h2>
+     <h2>Projects</h2>
      <div class="flex2">
         <div>
             <h3>Portfolio Website</h3>
@@ -50,7 +67,14 @@
 
    <div class="contact" id="contact">
     <h2>Contact Us</h2>
-
+    <div class="contac-form">
+        <form action="">
+            <input type="text" name="fname" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" id="my_message" placeholder="Your Message" rows="8"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
    </div>
 
 </div>

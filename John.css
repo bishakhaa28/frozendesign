@@ -12,12 +12,11 @@ body{
 header{
     background-color: #297dfe;
     width: 100%;
-    height: 400px;
+    padding: 50px;
 }
 header h2{
     color: white;
    font-size: 50px;
-   padding-top: 80px;
    padding-bottom: 30px;
 }
 header p{
@@ -29,6 +28,8 @@ header p{
   padding: 10px 25px;
   font-weight: bold;
   color: #2064cc;
+  border: none;
+  border-radius: 4px;
 }
 nav{
     background-color: #2064cc;
@@ -42,7 +43,7 @@ nav ul {
 nav ul a{
    text-decoration: none;
    color: white;
-   padding-right: 15px;
+   padding-right: 20px;
    font-weight: bold;
    font-size: 15px;
 }
@@ -51,18 +52,39 @@ nav ul a{
     margin: auto;
 }
 .about{
-    padding-top: 60px;
-    padding-bottom: 120px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.about h2{
+    text-align: center;
+    padding-bottom: 10px;
 }
 .about img{
-   width: 220px;
-   height: 250px;
+   width: 200px;
+   height: 230px;
    padding-top: 10px;
    padding-bottom: 30px;
 }
 
+.skills h2{
+     padding-bottom: 10px;
+     text-align: center;
+}
+.skills ul{
+    list-style: none;
+    display: flex;
+    padding-right: 10px;
+}
+.skills ul li{
+    border: 2px solid gray;
+
+}
+
 .projects{
     padding-bottom: 80px;
+}
+.projects h2{
+    text-align: center;
 }
 .flex2{
     display: flex;
@@ -82,11 +104,45 @@ nav ul a{
 .contact{
    margin-bottom: 10px;
 }
+.contact h2{
+    text-align: center;
+}
+form{
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+form input{
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid grey;
+    width: 100%;
+    padding-left: 10px;
+}
+
+form textarea{
+   border-radius: 5px;
+    padding: 5px;
+    border: 1px solid grey;
+    width: 100%;
+    margin-bottom: 20px;
+}
 
 
-
-
-
+form input:focus,form textarea:focus{
+    outline: none;
+}
+form button{
+    width: 100%;
+    padding: 8px;
+    background-color: #297dfe;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
 
 
 footer{
@@ -96,7 +152,7 @@ footer{
     color: white;
 }
 footer p{
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 .apps{
     display: inline-flex;
